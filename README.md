@@ -28,7 +28,7 @@ python outlier_detection/audioseal_p_value_detection_clean.py
 python outlier_detection/timbre_p_value_detection_clean.py
 ```
 
-# Attack -- AWM
+# Attacker
 We put some audio files to the folder "attack_audioseal" and "attack_timbre", please change the audio directory in the function of "decode_audio_files_perturb_whitebox" before you run the python files.
 ## AWM
 For example, for the watermark replacement, before running the command for the watermark replacement, change dataset in line 308 and 316.
